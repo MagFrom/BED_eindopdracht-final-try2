@@ -1,0 +1,41 @@
+{
+  "name": "express-bookings",
+  "version": "1.0.0",
+  "type": "module",
+  "prisma": {
+    "seed": "node ./prisma/seed.js"
+  },
+  "description": "Your REST API for managing bookings",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js && npm run sentry:sourcemaps",
+    "test-positive": "newman run \"./postman/collections/Bookings API.json\" -e \"./postman/environments/Local.postman_environment.json\"",
+    "test-negative": "newman run \"./postman/collections/Bookings API Negative.json\" -e \"./postman/environments/Local.postman_environment.json\"",
+    "test": "npm run test-positive && npm run test-negative",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org mags-b3 --project bookings_app https://mags-b3.sentry.io/settings/projects/bookings_app/source-maps/artifact-bundles/ && sentry-cli sourcemaps upload --org mags-b3 --project bookings_app https://mags-b3.sentry.io/settings/projects/bookings_app/source-maps/artifact-bundles/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.21.0",
+    "@sentry/cli": "^2.37.0",
+    "@sentry/node": "^7.119.2",
+    "@sentry/profiling-node": "^8.34.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.21.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "newman": "^6.0.0",
+    "nodemon": "^3.0.1",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18 <21"
+  }
+}
