@@ -1,0 +1,632 @@
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node src/index.js`
+(node:19114) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Server is listening on port 3000
+info: POST /login. Status: 200. Duration: 3 ms {"service":"bookstore-api"}
+info: GET /users/e5678901-23f0-1234-5678-9abcdef01234. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '5a730748-0a06-42fc-82d7-069b37086868',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '206'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /users/e5678901-23f0-1234-5678-9abcdef01234. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'efa9529c-5950-4a9f-82a1-e4c534c31b07',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Received request to delete user with ID: e5678901-23f0-1234-5678-9abcdef01234
+deleteUser: Function called with id: e5678901-23f0-1234-5678-9abcdef01234
+Attempting to delete user with id: e5678901-23f0-1234-5678-9abcdef01234
+info: DELETE /users/e5678901-23f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+Delete result: { count: 1 }
+deleteUser result: e5678901-23f0-1234-5678-9abcdef01234
+User with id e5678901-23f0-1234-5678-9abcdef01234 successfully deleted
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /users. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '10ff165b-fb35-4baa-9d45-695f8fa9f47f',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '293'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: POST /users. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /hosts/e2345678-90bc-def0-0123-456789abcdef. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'dc841bf5-5143-4acd-a8b6-a73c81cdd459',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '248'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /hosts/e2345678-90bc-def0-0123-456789abcdef. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'f97c0d4c-c478-499c-881f-296096ec5a5a',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Route handler: Received request to delete host with ID: e2345678-90bc-def0-0123-456789abcdef
+try statement router delete HOST e2345678-90bc-def0-0123-456789abcdef
+router get id: e2345678-90bc-def0-0123-456789abcdef
+router get req.params: { id: 'e2345678-90bc-def0-0123-456789abcdef' }
+Attempting to delete host with id: e2345678-90bc-def0-0123-456789abcdef
+info: DELETE /hosts/e2345678-90bc-def0-0123-456789abcdef. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+200 statement router delete HOST e2345678-90bc-def0-0123-456789abcdef
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /hosts. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '748a6a47-cb3d-48c1-85c8-6e08b6e0555e',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '308'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+we komen in de router post!!
+info: POST /hosts. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+newHost in hosts.js: {
+  id: 'fe7756ea-84bd-4e67-a991-ddca9ea8dbd8',
+  username: 'newhosty ',
+  password: 'password123',
+  name: 'John Doe',
+  email: 'johndoe@email.com',
+  phoneNumber: '+11234567890',
+  profilePicture: 'https://example.com/images/johndoe.jpg',
+  aboutMe: "I'm a passionate traveler who loves to share my home with fellow explorers. Welcome!"
+}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /properties/i1234567-89f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '28544c0a-ec42-46f9-9ae5-b2fbbacaa803',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '259'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /properties/i1234567-89f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '51070ebf-2d30-483f-973c-d31951cb9d3b',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: DELETE /properties/i1234567-89f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /properties. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'ee2506c4-b3af-4888-9d11-a1bb41b6d898',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '336'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: POST /properties. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /amenities/u3456789-01rs-tuvw-01cd-ef0123456789. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '6fdd3a00-3059-405b-bbc8-714ffce9240d',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '28'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /amenities/u3456789-01rs-tuvw-01cd-ef0123456789. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '6f1bd377-a5eb-4312-9b96-b305f6908be4',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: DELETE /amenities/u3456789-01rs-tuvw-01cd-ef0123456789. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /amenities. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'e8845414-6367-4d2f-a085-0a4a3fd06dbf',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '20'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: POST /amenities. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '7004a9e5-9cf8-4529-941b-db979f9cf21b',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '170'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'a33becee-ba86-4b2a-a14f-0bf76e974699',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: DELETE /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /bookings. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '998b79f9-944e-46b2-9496-cee2c3f95308',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '280'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: POST /bookings. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '32f7bb89-5bec-492a-919d-eba945f2414a',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '66'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: PUT /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '74cfa6f4-7659-4c60-8427-fc0da7576cf5',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: DELETE /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /reviews. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'aaffc090-d475-45f0-a613-ed8924952fc2',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '204'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzR9.wBA8CGkktTOTVWzRj_6N7tZw33wyraqfiCSZIIxKi8Y
+info: POST /reviews. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: GET /users/:userId. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '319c1fda-2d51-47a8-a0ec-62ad0c6dacd8',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '206'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /users/d4567890-12. Status: 200. Duration: 3 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '12332d8e-e8ad-44cc-8570-991f50dd4276',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Received request to delete user with ID: d4567890-12ef-01
+deleteUser: Function called with id: d4567890-12ef-01
+Attempting to delete user with id: d4567890-12ef-01
+info: DELETE /users/d4567890-12ef-01. Status: 200. Duration: 3 ms {"service":"bookstore-api"}
+Delete result: { count: 0 }
+deleteUser result: null
+User with id d4567890-12ef-01 not found
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'c3d93da4-61e7-4980-bf62-e0cf78fdb785',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: POST /users. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /hosts/:hostId. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'e3ac5b74-881b-47de-85f1-b3ef14afca65',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '248'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /hosts/:hostId. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 3 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'e4d3f718-c26e-4c55-8feb-5821e8845f1f',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Route handler: Received request to delete host with ID: :hostId
+try statement router delete HOST :hostId
+router get id: :hostId
+router get req.params: { id: ':hostId' }
+Attempting to delete host with id: :hostId
+info: DELETE /hosts/:hostId. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+Host with id :hostId does not exist.
+404 statement router delete HOST null
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '0322f177-7a3b-4d65-b7b7-e89646036e30',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+we komen in de router post!!
+info: POST /hosts. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+newHost in hosts.js: null
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: GET /properties/h0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '7015e9a8-8920-42b2-bba6-0053e16b163b',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '259'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /properties/h0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '8f91f438-ac43-4c58-b13e-156cc770877e',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: DELETE /properties/h0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '6a17a657-cc17-4194-b3e4-d9e3f71deda0',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: POST /properties. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: GET /amenities/t2345678-90qr-stu. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'd76830da-8c26-4c1e-af4f-0a551e16e670',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '28'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /amenities/t2345678-90qr-st. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '694ecb63-7951-4e9e-afd9-147eefd1d065',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: DELETE /amenities/bc-def012345678. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '8a5a6d8e-3dff-409c-aa1e-c8f21492c1b3',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: POST /amenities. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: GET /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '7387563e-0bcf-43eb-adef-c3ff4121e912',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '170'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '120b8fbc-b4f1-4fa2-92fc-11f479066881',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: DELETE /bookings/f0123456-78ab-cdef-0123-456789abcdef. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '7c43cadb-2bf7-4c78-aa0f-2cac1a13a5e0',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: POST /bookings. Status: 200. Duration: 4 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 2 ms {"service":"bookstore-api"}
+info: GET /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'content-type': 'application/json',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'edbfacfb-80d4-43e7-94a6-5114027cab3d',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '66'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: PUT /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 0 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': 'f939e959-cb7f-401e-a081-b4ca6f3501f2',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: DELETE /reviews/j0123456-78f0-1234-5678-9abcdef01234. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+req.headers: {
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY',
+  'user-agent': 'PostmanRuntime/7.41.2',
+  accept: '*/*',
+  'cache-control': 'no-cache',
+  'postman-token': '91a7592e-4684-4229-aa65-47d02bbbd5dc',
+  host: '0.0.0.0:3000',
+  'accept-encoding': 'gzip, deflate, br',
+  connection: 'keep-alive',
+  'content-length': '0'
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+Token after extraction: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMTIzNDU2Ny04OWFiLWNkZWYtMDEyMy00NTY3ODlhYmNkZWYiLCJpYXQiOjE3MzEwNjU0MzV9.fnNGAo444OhtScsyRtbb_5Ggj58AfZcIZfSPt54TirY
+info: POST /reviews. Status: 200. Duration: 3 ms {"service":"bookstore-api"}
+info: POST /login. Status: 200. Duration: 1 ms {"service":"bookstore-api"}
+info: POST /login. Status: 401. Duration: 0 ms {"service":"bookstore-api"}
